@@ -187,7 +187,7 @@ public struct URITemplate : CustomStringConvertible, Equatable, Hashable, Expres
     if op != nil {
       return "(.*)"
     } else {
-      return "([A-z0-9%_\\-]+)"
+      return "([A-z0-9%_\\-']+)"
     }
   }
 
